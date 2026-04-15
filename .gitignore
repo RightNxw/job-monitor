@@ -1,0 +1,30 @@
+# Secrets
+.env
+.env.local
+!.env.example
+proxies.txt
+
+# Monitor
+monitor/monitor
+monitor/*.db
+monitor/*.db-shm
+monitor/*.db-wal
+.ocr-*
+
+# Node / Next
+node_modules/
+.next/
+out/
+/next-env.d.ts
+
+# Deploy
+.vercel
+
+# OS / editors
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# TypeScript build cache
+*.tsbuildinfo
